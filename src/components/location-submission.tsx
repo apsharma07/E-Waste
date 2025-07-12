@@ -1,7 +1,7 @@
 "use client";
 
-import { useFormState, useFormStatus } from "react-dom";
-import { useEffect, useRef } from 'react';
+import { useFormStatus } from "react-dom";
+import { useEffect, useRef, useActionState } from 'react';
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import type { z as zod } from "zod";
@@ -30,7 +30,7 @@ function SubmitButton() {
 }
 
 export default function LocationSubmission() {
-  const [state, formAction] = useFormState(handleAddLocation, { message: "", status: "idle" });
+  const [state, formAction] = useActionState(handleAddLocation, { message: "", status: "idle" });
   const { toast } = useToast();
   const formRef = useRef<HTMLFormElement>(null);
 
