@@ -44,7 +44,7 @@ export default function LocationFinder() {
             alt="Map of e-waste locations"
             layout="fill"
             objectFit="cover"
-            data-ai-hint="world map"
+            data-ai-hint="city map"
           />
            <div className="absolute inset-0 bg-gradient-to-t from-background/50 to-transparent" />
         </div>

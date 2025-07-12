@@ -28,7 +28,7 @@ export default function HeroSection() {
                 alt="Eco-friendly tech recycling" 
                 fill
                 className="rounded-lg object-cover shadow-2xl"
-                data-ai-hint="recycling electronics"
+                data-ai-hint="e-waste recycling"
             />
         </div>
       </div>
