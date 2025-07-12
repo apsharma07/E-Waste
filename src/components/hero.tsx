@@ -25,7 +25,7 @@ export default function HeroSection() {
         <div className="relative h-64 md:h-96 w-full">
             <Image 
                 src="https://placehold.co/600x400.png" 
-                alt="Eco-friendly tech recycling" 
+                alt="A collection of old electronic devices like phones, laptops, and cables neatly arranged for recycling." 
                 fill
                 className="rounded-lg object-cover shadow-2xl"
                 data-ai-hint="e-waste recycling"

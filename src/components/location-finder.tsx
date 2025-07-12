@@ -40,8 +40,8 @@ export default function LocationFinder() {
       <Card className="overflow-hidden shadow-lg">
         <div className="relative h-[400px] md:h-[500px] w-full">
           <Image
-            src="https://placehold.co/1200x600.png"
-            alt="Map of e-waste locations"
+            src="https://placehold.co/1200x500.png"
+            alt="A stylized map showing pins for various recycling locations in a city."
             layout="fill"
             objectFit="cover"
             data-ai-hint="city map"
