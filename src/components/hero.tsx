@@ -24,7 +24,7 @@ export default function HeroSection() {
         </div>
         <div className="relative h-64 md:h-96 w-full">
             <Image 
-                src="https://media.istockphoto.com/id/1352362769/photo/male-and-female-recycling-coworkers-holding-digital-tablet-and-plastic-box-full-of-mother.jpg?s=2048x2048&w=is&k=20&c=diWqIkvPNFmJbuvwz1sCUVAkGTfWBFBZ7NgJfFS4Vhc=" 
+                src="10563467.jpg" 
                 alt="A collection of old electronic devices like phones, laptops, and cables neatly arranged for recycling." 
                 fill
                 className="rounded-lg object-cover shadow-2xl"
